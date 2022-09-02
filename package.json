@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@fingerprintjs/fingerprintjs": "^3.3.0",
+    "device-detector-js": "^2.2.10",
+    "ethers": "^5.4.6"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1"
+  },
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  }
+}
